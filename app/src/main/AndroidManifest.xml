@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Market" />
+        <activity android:name=".Family" />
+        <activity
+            android:name=".School"
+             />
+        <activity android:name=".Food" />
+        <activity android:name=".Greetings"></activity>
     </application>
 
 </manifest>
