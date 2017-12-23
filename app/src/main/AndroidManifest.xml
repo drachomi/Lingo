@@ -18,11 +18,35 @@
         </activity>
         <activity android:name=".Market" />
         <activity android:name=".Family" />
-        <activity
-            android:name=".School"
-             />
+        <activity android:name=".School" />
         <activity android:name=".Food" />
-        <activity android:name=".Greetings"></activity>
+        <activity android:name=".Greetings" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.richard.lingoapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.richard.lingoapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.richard.lingoapp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
