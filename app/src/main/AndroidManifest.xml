@@ -47,6 +47,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.richard.lingoapp.MainActivity" />
         </activity>
+        <activity android:name=".Intro"></activity>
     </application>
 
 </manifest>
